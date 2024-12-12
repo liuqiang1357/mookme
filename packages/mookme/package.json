@@ -1,6 +1,6 @@
 {
-  "name": "@escape.tech/mookme",
-  "version": "2.5.1",
+  "name": "@liuqiang1357/mookme",
+  "version": "2.5.2",
   "description": "A git hook manager designed for monorepos",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -67,6 +67,7 @@
     "commander": "^7.2.0",
     "debug": "^4.3.4",
     "inquirer": "^8.0.0",
+    "user": "^0.0.0",
     "wildcard-match": "^5.1.0"
   }
 }
