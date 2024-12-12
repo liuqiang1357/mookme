@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install @escape.tech/mookme
+npm install @liuqiang1357/mookme
 ```
 
 ### Requirements
@@ -21,7 +21,7 @@ Hence it only requires a very minimal configuration, as most of this is defined 
 **Case 1 : You are the first to configure `Mookme` on your project**
 
 ```bash
-npx @escape.tech/mookme init
+npx @liuqiang1357/mookme init
 ```
 
 This will display a prompter to let you define how you want the hooks to behave when a file is changed during commit hooks, write the corresponding documentation in your `package.json`, and write your `.git/hooks` scripts.
@@ -35,7 +35,7 @@ Every step of this process is clearly shown and nothing will be written without 
 This will only write your `.git/hooks` scripts.
 
 ```bash
-npx @escape.tech/mookme init --only-hook
+npx @liuqiang1357/mookme init --only-hook
 ```
 
 ## Writing your hooks
